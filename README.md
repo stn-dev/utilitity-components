@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧩 Composants Réutilisables & Utilitaires
 
-## Getting Started
+Ce dossier regroupe tous les **composants**, **hooks personnalisés** et **fonctions utilitaires** que je considère utiles et réutilisables dans plusieurs projets.
 
-First, run the development server:
+L’objectif est de centraliser ces éléments pour pouvoir les intégrer rapidement dans de nouveaux projets sans avoir à les recoder à chaque fois.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Ce que tu trouveras ici
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Composants UI**  
+  Boutons, modales, sliders, loaders, sections animées, etc.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Hooks personnalisés**  
+  Hooks pour gérer le scroll, les médias responsives, les effets d’apparition, etc.
 
-## Learn More
+- **Fonctions utilitaires**  
+  Helpers pour manipuler les dates, les chaînes de caractères, les tableaux, ou gérer des animations GSAP, etc.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Pourquoi ce dossier ?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+✨ **Gagner du temps** : Fini le copier-coller d’un projet à l’autre.  
+🧠 **Éviter la duplication** : Un seul endroit pour maintenir et améliorer mes composants.  
+🚀 **Booster la productivité** : Je garde ici mes outils prêts à l’emploi, testés et approuvés.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Stack utilisée
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+La plupart des composants ici sont conçus avec :
+
+- **React / Next.js**
+- **Tailwind CSS**
+- **TypeScript**
+- **GSAP** (pour certaines animations)
+- **Sass** (selon le projet)
+
+---
+
+## 📌 Remarques
+
+Ce dossier est évolutif : j’ajoute régulièrement de nouveaux éléments dès que je trouve une solution réutilisable ou une structure que j’aime.
+
+Tu peux considérer ce dossier comme ma petite **boîte à outils personnelle** 🧰
+
+---
+
+> “Un bon développeur ne recode pas la roue. Il l’améliore et la partage.”
